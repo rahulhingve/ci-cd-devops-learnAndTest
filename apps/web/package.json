@@ -11,6 +11,8 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@prisma/client": "6.5.0",
+    "@repo/db": "workspace:*",
     "@repo/ui": "workspace:*",
     "next": "^15.2.1",
     "react": "^19.1.0",
@@ -19,7 +21,6 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@repo/db": "workspace:*",
     "@types/node": "^22.13.10",
     "@types/react": "19.0.12",
     "@types/react-dom": "19.0.4",
