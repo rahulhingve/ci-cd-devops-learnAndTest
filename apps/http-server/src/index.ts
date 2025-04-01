@@ -24,6 +24,6 @@ app.post("/signup", async (req: Request, res: Response) => {
   });
 });
 
-app.listen(3002, () => {
-  console.log("Server is running on port 3002");
+app.listen(3010, () => {
+  console.log("Http Server is running on port 3010");
 });
